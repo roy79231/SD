@@ -1,0 +1,41 @@
+header{
+    background-color: rgb(191, 244, 112);
+    font-size: 25px;
+    line-height: 50px;
+    padding-left: 3%;
+    height: 50px;
+}
+header div{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.link{
+    opacity: 1;
+}
+.link:hover{
+    opacity: 0.3;
+}
+.fir{
+    text-align:center;
+    background-color:rgb(154, 243, 243);
+    color: #000;
+}
+#name{
+    margin: 0px;
+    font-size: 50px;
+}
+#department{
+    font-size: 20px;
+    margin: 0px;
+}
+.layer{
+    display: flex;
+    margin: 0px;
+}
+.content{
+    background-color: aqua;
+    margin: 0px;
+}
+#picture{
+    margin: 50px 10px 20px 120px;
+}
