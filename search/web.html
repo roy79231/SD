@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/s1.css" rel="stylesheet" type="text/css">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAEAAAAAABAAEAAAAAAAEAEAAAAAAAAQEAAAAAAAABEAAAAAAAAAERERAAAAAAAQAAEAAAAAABAAAQAAAAAAEAABAAAAAAAREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AAD3vwAA938AAPb/AAD1/wAA8/8AAPA/AAD3vwAA978AAPe/AADwPwAA//8AAP//AAD//wAA" rel="icon" type="image/x-icon" />
+    <title>搜尋網站:D</title>
+    <script src="script/main.js" type="module"></script>
+</head>
+<body>
+    <div id="head"><!--起頭-->
+        <div>
+            <p class="title">SD search</p>
+        </div>
+        <div id="text">
+            <input type="text" placeholder="國立中央大學" style="font-size: 30px;">
+            <button style="font-size: 20px;">搜尋</button>
+        </div>
+        <div>
+            <img id="img" src="media/head1.jpg">
+        </div>
+    </div>
+    <hr/>
+    <div id="content">
+        <div class="num">
+        </div>
+        <div id="sort">
+            <p class="title" style="padding-right: 10px">排序方式</p>
+            <select id="select" style="font-size: 20px">
+                <option value="1">標題</option>
+                <option value="2">人氣由高到低</option>
+                <option value="3">人氣由低到高</option>
+                <option value="4">最新</option>
+                <option value="5">最舊</option>
+            </select>
+        </div>
+        <div class="list">
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+</body>
+</html>

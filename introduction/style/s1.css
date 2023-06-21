@@ -1,54 +1,111 @@
 body{
-    background-color: black;
+    background-image: url("../media/table.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
 }
 header{
-    background-color: rgb(191, 244, 112);
+    z-index: 99999;
+    top:0px;
+    background-color: #a98b73;
     font-size: 30px;
     line-height: 50px;
     padding-left: 3%;
+    padding-right: 81.4%;
     height: 50px;
+    color: white;
+    position:fixed;
 }
 header div{
-    display: inline-block;
-    padding: 0px 1%;
+    display: inline;
 }
-.link{
+a{
+    text-decoration:none;
+    padding: 10px;
     opacity: 1;
+    color: white;
 }
-.link:hover{
+a:visited{
+    color:rgb(255, 255, 255);
+}
+
+a:hover{
     opacity: 0.3;
 }
 .fir{
-    text-align:center;
-    background-color:rgb(39, 211, 211);
-    color: #000;
+    background-color:rgb(39, 211, 211,0);
+    color: white;
 }
 #name{
-    margin: 0px;
-    font-size: 70px;
+    margin: 20% 0px 0px 5%;
+    font-size: 100px;
 }
 #department{
-    font-size: 40px;
-    margin: 0px;
+    font-size: 70px;
+    margin: 0px 0px 22% 5%;
 }
 .layer{
     display: flex;
     margin: 0px;
 }
 .content{
-    background-color: rgb(238, 185, 12);
+    background-color: #fffaf0;
     margin: 0px;
 }
 #picture{
-    margin: 3% 1% 2% 12%;
+    margin: 2% 1% 2% 5%;
 }
-.right{
-    font-size: 40px;
-    line-height: 500%;
-    padding-left: 15%;
-    padding-top: 4%;
+#aboutme{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 400%;
+    padding-left: 5%;
+    margin: 0px;
+}
+#text{
+    font-size: 30px;
+    padding-left: 5%;
+    padding-right: 19%;
+    margin: 0px;
 }
 #about{
     font-size: 30px;
-    padding: 0% 19% 15%  12%;
+    padding: 0% 19% 10%  12%;
+}
+.end{
+    padding-bottom: 1%;
+    color: white;
+    background-color: #c5ab89;
+    display:flex;
+}
+.icon{
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+#fb{
+    margin: 10% 10% 0% 200%;
+    display: flex;
+    font-size: 20px;
+    white-space:nowrap;
+}
+#phone{
+    margin: 10% 10% 0% 200%;
+    display: flex;
+    font-size: 20px;
+    white-space:nowrap;
+}
+#mail{
+    margin: 10% 10% 0% 200%;
+    display: flex;
+    font-size: 20px;
+    white-space:nowrap;
+}
+.end p{
+    padding-left: 15px;
+}
+.end a{
+    margin: 50% 10% 0% 1400%;
+    font-size: 20px;
+    display: flex;
 }
