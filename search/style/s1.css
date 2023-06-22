@@ -1,3 +1,4 @@
+@media screen and (min-width:1280px) {
 
 #head{
     display: flex;
@@ -15,7 +16,6 @@
 img{
     width: 50px;
     border-radius: 50px;
-
 }
 .data{
     border-style: double;
@@ -30,15 +30,37 @@ img{
     font-size: 10px;
 }
 /*下面要改*/
-
+.list{
+    height: 10000px;
+    overflow-x: auto;
+    overflow-y: hidden ;
+}
 #sort{
     display: flex;
 }
+}
 @media screen and (max-width:1280px) {
-    body{
-        background-color: black;
+    .title{
+        font-size: 25px;
+        margin: 0px;
+        margin-bottom: 10px;
+        font-weight: bolder;
     }
-    .pic{
-      width: 500px;
+    #head{
+        margin-top: 30px;
+    }
+    img{
+        margin-top:10px ;
+        width: 50px;
+        border-radius: 50px;
+    }
+    #sort{
+        display: flex;
+    }
+    .data{
+        border-style: double;
+        margin: 10px;
+        padding: 10px;
+        background-color: bisque;
     }
 }
