@@ -7,7 +7,6 @@
     <link href="style/s1.css" rel="stylesheet" type="text/css">
     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAEAAAAAABAAEAAAAAAAEAEAAAAAAAAQEAAAAAAAABEAAAAAAAAAERERAAAAAAAQAAEAAAAAABAAAQAAAAAAEAABAAAAAAAREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AAD3vwAA938AAPb/AAD1/wAA8/8AAPA/AAD3vwAA978AAPe/AADwPwAA//8AAP//AAD//wAA" rel="icon" type="image/x-icon" />
     <title>搜尋網站:D</title>
-    <script src="script/main.js" type="module"></script>
 </head>
 <body>
     <div id="head"><!--起頭-->
@@ -28,6 +27,7 @@
         <div id="sort">
             <p class="title" style="padding-right: 10px">排序方式</p>
             <select id="select" style="font-size: 20px">
+                <option value="0">預設</option>
                 <option value="1">標題</option>
                 <option value="2">人氣由高到低</option>
                 <option value="3">人氣由低到高</option>
@@ -37,6 +37,10 @@
         </div>
         <div class="list">
         </div>
+        <div class="btn">
+            <button id="show-more-btn">顯示更多</button>
+        </div>
     </div>
+    <script src="script/main.js" type="module"></script>
 </body>
 </html>
